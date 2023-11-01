@@ -1,0 +1,62 @@
+<!doctype HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Owl House memory game</title>
+    <meta name="author" content="Kacper">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+    <link type="text/css" href="main.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Owl House Memory Test</h1>
+        <p>Inspired by <a href="https://www.reddit.com/r/TheOwlHouse/" target="_blank">The Owl House - Gay witch show</a></p>
+    </header>
+    <main>
+        <article>
+            <div class="menu">
+                <div onclick="game_start('Easy')" class="button">Easy</div>
+                <div onclick="game_start('Medium')"class="button">Medium</div>
+                <div onclick="game_start('This mama is ready for trauma')"class="button">This mama is ready for trauma</div>
+                <div class="button" onclick="credits()">Credits</div>
+
+            </div>
+        </article>
+        <article>
+            <div class="game">
+                <div class="difficulty"></div>
+                <div class="board"></div>
+                <div class="win"></div>
+                <div class="back" onclick="menu_back()">Back to menu</div>
+            </div>
+            <div class="credits">
+                <div class="difficulty">Credits aka: Please don't sue me</div>
+                <p>The Owl House was created by Dana Terrace. All images from the show belong to Disney</p>
+                <h3>Fanart used:</h3>
+                <div class="list">
+                    <div class="flex">
+                        <img src="img/Manny.JPG"/>
+                        <div><p>Manny</p><p>By our Lord and Savior <a href="https://moringmark.tumblr.com/">Moringmark</a></p></div>
+                    </div>
+                    <div class="flex">
+                        <a href="img/Leo.jpg" target="_blank"><img class="img_open" src="img/Leo.jpg"/></a>
+                        <div><p>Leo by Thomathy</p><p>A witchwolf puppy and son of Luz, character from 
+                        <a href="https://archiveofourown.org/series/2065347" >Rainbow Hair Clip series by I_Make_Arrows</a></p></div>
+                    </div>
+                    <div class="flex">
+                        <a href="img/Surge.jpg" target="_blank"><img class="img_open" src="img/Surge.jpg"/></a>
+                        <div><p>Surge by Thomathy</p><p>The ancient witchwolf of Bonewilds coven and close friend of Lilith, character from 
+                        <a href="https://archiveofourown.org/series/2065347" >Rainbow Hair Clip series by I_Make_Arrows</a></p></div>
+                    </div>
+                    <p>Game created by Achtung_Panzer aka Kacper</p>
+                </div>
+                <div class="back" style="display:block" onclick="credits_back()">Back to menu</div>
+
+            </div>
+        </article>
+    </main>
+    <script type="text/javascript" src="game.js"></script>
+</body>
+</html>

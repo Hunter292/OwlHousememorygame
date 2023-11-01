@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(38, 40, 46);
+    color: #c79942;
+    font-size: 28px;
+    font-family: 'Lobster', sans-serif;
+    margin: 20px auto;
+    text-align: center;
+}
+a:link{color:#c79942; text-decoration: none;}
+a:visited{color:#c79942;}
+a:active{color:#c79942;}
+a:hover{color:#f9e3a1 !important;}
+h1{
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 60px;
+}
+p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.card{
+    width: 125px;
+    height: 125px;
+    margin: 5px;
+    background-image: url("img/card.jpg");
+    background-size: contain;
+    border:#efc26a solid 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    filter:brightness(75%);
+    transition: all .3s ease-in-out;
+}
+.cardVisible{
+    width: 125px;
+    height: 125px;
+    margin: 5px;
+    background-image: url("img/card.jpg");
+    background-size: contain;
+    border:#f9e3a1 solid 4px;
+    border-radius: 4px;
+    cursor: default;
+    transition: all .3s ease-in-out;
+}
+.card:hover{
+    border:#f9e3a1 4px solid;
+    filter:brightness(100%);
+
+}
+.difficulty,.back{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    color:#a7a299;
+}
+.back{
+    display: inline;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.back:hover{
+    color:#c9c4bb;
+}
+.game{
+    display:none
+}
+.board{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu{
+    text-align: center;
+    margin-top: 50px;
+}
+.win{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.button{
+    display:block;
+    margin:20px auto;
+    width:400px;
+    background-color:#4d1c38 ;
+    border-radius: 6px;
+    padding:15px 0;
+    cursor:pointer;
+}
+.button:hover{
+    color:#f9e3a1;
+}
+.reset{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    cursor: pointer;
+}
+.reset:hover{
+    color:#f9e3a1;
+}
+.credits{
+    display: none;
+}
+.list{
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+img{
+    width:200px;
+    border:#f9e3a1 solid 4px;
+    margin-right:20px;
+    margin-bottom: 20px;
+}
+.img_open{
+    transition: transform .3s ease-in-out;
+}
+.img_open:hover{
+	transform: scale(1.15);
+}
