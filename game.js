@@ -64,6 +64,7 @@ function revealcard(nr){
             turn_counter++;
             one_visible=false;
             document.querySelector('.score').innerHTML='Turn Counter: '+turn_counter;
+            secondCard=-1;
         }
     }
 }
