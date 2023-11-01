@@ -64,7 +64,6 @@ function revealcard(nr){
             turn_counter++;
             one_visible=false;
             document.querySelector('.score').innerHTML='Turn Counter: '+turn_counter;
-            secondCard=-1;
         }
     }
 }
@@ -74,7 +73,7 @@ function remove_two(nr){
     document.getElementById('c'+secondCard).style.opacity=0;  
     document.getElementById('c'+nr).setAttribute("onclick",";");
     document.getElementById('c'+secondCard).setAttribute("onclick",";");
-
+    secondCard=-1;
     lock=false;
     if(counter<1){
         document.querySelector('.board').innerHTML='';
@@ -87,6 +86,7 @@ function hide_two(nr){
     document.getElementById('c'+secondCard).setAttribute("class","card");
     document.getElementById('c'+nr).style.backgroundImage='url(img/card.jpg)';
     document.getElementById('c'+secondCard).style.backgroundImage='url(img/card.jpg)';
+    secondCard=-1;
     lock=false;
 }
 function menu_back(){
