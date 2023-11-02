@@ -32,7 +32,7 @@ function game_start(x){
 
         } break;
         case 'This mama is ready for trauma':{
-            names=['TitanLuz','TitanLuz','Amity','Amity','Belos','Golden','Belos','Jerbo','Jerbo','Barcus','Raine','Barcus','Raine','Golden','Viney','Skara','Bump','Skara','Bump','Viney','Leo','Leo',
+            names=['Titanluz','Titanluz','Amity','Amity','Belos','Golden','Belos','Jerbo','Jerbo','Barcus','Raine','Barcus','Raine','Golden','Viney','Skara','Bump','Skara','Bump','Viney','Leo','Leo',
             'Steve','Steve','Bosha','Bosha','Surge','Surge','Manny','Alador','Manny','Alador','Collector','Collector','Hooty','Hooty','Darius','Darius','Titan','Titan'];
             board.style.width="1150px";
             counter=20;
